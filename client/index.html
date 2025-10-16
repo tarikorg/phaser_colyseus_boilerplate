@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Phaser Power Angle game + Colyseus</title>
+    <style>
+        html,
+        body,
+        .container {
+            margin: 0px;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            background-color: #d7d7d7d7;
+        }
+    </style>
+    <!-- Load Phaser from a CDN for simplicity; swap to bundling later -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+    <!-- Phaser core for scenes and rendering -->
+    <!-- Load Colyseus JavaScript client for websocket networking -->
+    <script src="https://unpkg.com/colyseus.js/dist/colyseus.js"></script> <!-- Colyseus client SDK -->
+    <!-- Load our game code last so libraries are available -->
+    <script defer src="./src/main.js"></script> <!-- Your Phaser client code -->
+</head>
+
+<body>
+
+</body>
+
+</html>
